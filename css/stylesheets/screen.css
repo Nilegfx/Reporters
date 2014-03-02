@@ -1,0 +1,24 @@
+body {
+  font-family: arial;
+}
+
+.boxes-container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: #a0b094;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.box .box-header, .box .box-content {
+  padding: 10px;
+}
+.box .box-footer {
+  display: none;
+}
